@@ -173,11 +173,11 @@ header a img {
   height: 128.99px;
   background: #5DA7D9;
   border: none;
-  margin-top: 109px;
+  margin-top: 110px;
   color: #ffffff;
   font-size: 18px;
   font-family: "Built Titling";
-  letter-spacing: 2.4px;
+  letter-spacing: 2.8px;
   position: relative;
 }
 .section2 .section2-conten button::after {
@@ -193,9 +193,9 @@ header a img {
 .section2 .section2-list {
   display: flex;
   position: relative;
-  top: 4px;
+  top: 2px;
   gap: 30px;
-  left: 42px;
+  left: 40px;
 }
 .section2 .section2-list .list-item {
   width: 255px;
@@ -223,7 +223,7 @@ header a img {
 .section2 .section2-list .list-item .list-item-conten p {
   font-size: 16px;
   font-weight: 400;
-  padding: 30.1px 0px 0 30.2px;
+  padding: 32.1px 0px 0 32.2px;
   letter-spacing: 1.4px;
 }
 .section2 .section2-list .list-item .list-item-conten h3 {
@@ -231,7 +231,7 @@ header a img {
   letter-spacing: 2px;
   font-weight: 700;
   font-style: italic;
-  padding: 41px 70px 36px 32px;
+  padding: 41px 70px 36px 34px;
 }
 .section2 .section2-list .list-item .list-item-conten .list-item-conten-next {
   position: absolute;
@@ -246,20 +246,20 @@ header a img {
   background: #7853A2;
 }
 .section2 .section2-list .list-item-tow .list-item-img img {
-  padding: 94px 0 0 21px;
+  padding: 97px 0 0 21px;
 }
 .section2 .section2-list .list-item-tow .list-item-conten p {
-  padding: 82px 0 0 27px;
+  padding: 82px 0 0 30px;
   color: #ffffff;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1.6px;
 }
 .section2 .section2-list .list-item-tow .list-item-conten h3 {
   font-size: 22px;
   font-weight: 700;
   font-style: italic;
   letter-spacing: 2px;
-  padding: 40px 100px 0 29px;
+  padding: 39px 100px 0 32px;
   color: #ffffff;
 }
 .section2 .section2-list .list-item-tow .list-item-conten .list-item-conten-next img {
@@ -271,9 +271,9 @@ header a img {
   height: 458px;
 }
 .section2 .section2-list .list-item-three .list-item-conten p {
-  padding: 26px 0px 15px 27px;
+  padding: 26px 0px 15px 31px;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1.6px;
   color: #ffffff;
 }
 .section2 .section2-list .list-item-three .list-item-conten h3 {
@@ -281,8 +281,8 @@ header a img {
   font-weight: 700;
   color: #ffffff;
   font-style: italic;
-  letter-spacing: 2px;
-  padding: 23px 30px 0px 30px;
+  letter-spacing: 2.2px;
+  padding: 26px 30px 0px 30px;
 }
 .section2 .section2-list .list-item-three .list-item-img img {
   padding-top: 81px;
@@ -305,22 +305,22 @@ header a img {
   font-weight: 600;
   font-style: italic;
   letter-spacing: 5px;
-  padding: 10px 0 0 0;
+  margin-top: -3px;
 }
 .section3 .section3-container .section3-conten h3 {
   font-size: 53.88px;
   font-weight: 500;
   color: #7853A2;
-  width: 197px;
-  letter-spacing: 4.8px;
-  padding: 70px 0 0 2px;
+  width: 204px;
+  letter-spacing: 5.5px;
+  padding: 67px 0 0 0px;
 }
 .section3 .section3-container .section3-conten .section3-conten-p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
   width: 447px;
   line-height: 28px;
-  padding: 15px 0 0 0px;
+  padding: 17px 0 0 0px;
 }
 .section3 .section3-container .section3-img {
   vertical-align: middle;
@@ -338,19 +338,19 @@ header a img {
 }
 .section4 .section4-img .section4-img-click {
   position: absolute;
-  width: 94%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  top: 490px;
-  padding: 0 156px 0 48px;
+  top: 433px;
+  padding: 0 156px 0 89px;
 }
 .section4 .section4-conten {
   display: flex;
   background: #9277B5;
   color: #FFFFFF;
   position: relative;
-  top: -95px;
+  top: -109px;
   height: 275px;
 }
 .section4 .section4-conten .section4-conten-item {
@@ -368,14 +368,14 @@ header a img {
   font-size: 53.88px;
   font-weight: 500;
   letter-spacing: 5.3px;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 .section4 .section4-conten .section4-conten-item p {
   font-size: 16px;
   width: 446.37px;
   letter-spacing: px;
   line-height: 27px;
-  padding: 11px 0 0 0;
+  padding: 9px 0 0 0;
   font-family: "Roboto Condensed", sans-serif;
 }
 .section4 .section4-conten .section4-conten-link {
@@ -403,6 +403,21 @@ header a img {
   display: flex;
   margin-left: 49.3px;
   margin-top: 38px;
+}
+.section4 .section4-conten .section4-conten-link .mappin i {
+  font-size: 32px;
+}
+.section4 .section4-conten .section4-conten-link .mappin h3 {
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0px 0 0 15px;
+  letter-spacing: 3.2px;
+}
+.section4 .section4-conten .section4-conten-link .mappin p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  /* letter-spacing: 0px; */
+  padding: 6px 0 0 18px;
 }
 
 * {

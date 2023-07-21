@@ -11,12 +11,12 @@
 
         .section4-img-click {
             position: absolute;
-            width: 94%;
-            display: flex;
-            justify-content: space-between;
-            margin: 0 auto;
-            top: 490px;
-            padding: 0 156px 0 48px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    top: 433px;
+    padding: 0 156px 0 89px;
         }
 
     }
@@ -26,7 +26,7 @@
         background: #9277B5;
         color: #FFFFFF;
         position: relative;
-        top: -95px;
+        top: -109px;
         height: 275px;
 
         .section4-conten-item {
@@ -45,7 +45,7 @@
                 font-size: 53.88px;
                 font-weight: 500;
                 letter-spacing: 5.3px;
-                padding-top: 5px;
+                padding-top: 7px;
             }
 
             p {
@@ -53,7 +53,7 @@
                 width: 446.37px;
                 letter-spacing: px;
                 line-height: 27px;
-                padding: 11px 0 0 0;
+                padding: 9px 0 0 0;
                 font-family: "Roboto Condensed", sans-serif;
             }
 
@@ -87,6 +87,24 @@
                 display: flex;
                 margin-left: 49.3px;
                 margin-top: 38px;
+
+                i {
+                    font-size: 32px;
+                }
+
+                h3 {
+                    font-size: 32px;
+                    font-weight: 500;
+                    padding: 0px 0 0 15px;
+                    letter-spacing: 3.2px;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-family: "Roboto Condensed", sans-serif;
+                    /* letter-spacing: 0px; */
+                    padding: 6px 0 0 18px;
+                }
             }
         }
     }
