@@ -1,0 +1,29 @@
+@import 'header.scss';
+@import 'section1.scss';
+@import 'section2.scss';
+@import 'section3.scss';
+@import 'section4.scss';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Built Titling";
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    min-width: 1600px;
+}
+
+
+

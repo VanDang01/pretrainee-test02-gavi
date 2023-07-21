@@ -1,0 +1,179 @@
+.section2 {
+    display: flex;
+    background: #3994D1;
+    padding-top: -8px;
+    margin-top: -2px;
+    padding: 246px 0px 192px 248px;
+
+
+    .section2-conten {
+        width: 50%;
+
+
+        h3 {
+            font-size: 54px;
+            font-weight: 500;
+            width: 421px;
+            color: #ffffff;
+            letter-spacing: 5.3px;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: "Roboto Condensed", sans-serif;
+            width: 445px;
+            padding-top: 40.3px;
+            line-height: 27px;
+            color: #ffffff;
+            margin-left: -2px;
+        }
+
+        button {
+            width: 445px;
+            height: 128.99px;
+            background: #5DA7D9;
+            border: none;
+            margin-top: 109px;
+            color: #ffffff;
+            font-size: 18px;
+            font-family: "Built Titling";
+            letter-spacing: 2.4px;
+            position: relative;
+        }
+
+        button::after {
+            content: "";
+            width: 185px;
+            height: 3px;
+            position: absolute;
+            z-index: 1;
+            right: 132px;
+            top: 86px;
+            background-color: #ffffff;
+        }
+    }
+
+
+    .section2-list {
+        display: flex;
+        position: relative;
+        top: 4px;
+        gap: 30px;
+        left: 42px;
+
+
+        .list-item {
+           width: 255px;
+           height: 458px;
+
+            .list-item-img {
+                display: block;
+                height: 241px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+
+
+            a {
+                text-decoration: none;
+                color: initial;
+            }
+
+            .list-item-conten {
+                position: relative;
+                top: 0;
+                background: #FFFFFF;
+                margin-top: -2px;
+                height: 220px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 30.1px 0px 0 30.2px;
+                    letter-spacing: 1.4px;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    letter-spacing: 2px;
+                    font-weight: 700;
+                    font-style: italic;
+                    padding: 41px 70px 36px 32px;
+                }
+
+                .list-item-conten-next {
+                    position: absolute;
+                    top: 86%;
+                    right: 6%;
+                    color: #FFFFFF;
+                    width: auto;
+                }
+            }
+        }
+
+        .list-item-tow {
+            width: 255px;
+            height: 458px;
+            background: #7853A2;
+
+
+            .list-item-img img{
+                padding: 94px 0 0 21px;
+            }
+
+            .list-item-conten {
+                p {
+                    padding: 82px 0 0 27px;
+                    color: #ffffff;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    font-style: italic;
+                    letter-spacing: 2px;
+                    padding: 40px 100px 0 29px;
+                    color: #ffffff;
+                }
+
+                .list-item-conten-next img{
+                    padding: 45px 0 0 220px;
+                }
+            }
+        }
+
+        .list-item-three {
+            background-color: #EA572A;
+            width: 255px;
+            height: 458px;
+
+            .list-item-conten {
+                p {
+                    padding: 26px 0px 15px 27px;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    color: #ffffff;
+
+                }
+
+                h3 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    font-style: italic;
+                    letter-spacing: 2px;
+                    padding: 23px 30px 0px 30px;
+                }
+            }
+            .list-item-img img{
+                padding-top: 81px;
+            }
+        }
+    }
+}

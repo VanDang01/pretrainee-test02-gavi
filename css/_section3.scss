@@ -1,0 +1,47 @@
+.section3 {
+    height: 100%;
+
+    .section3-container {
+        border: #E6E1F0 solid 40px;
+        display: flex;
+
+        .section3-conten {
+            width: 50%;
+            padding-top: 207px;
+            padding-left: 206.4px;
+
+            .section3-conten-blog {
+                font-size: 32px;
+                font-weight: 600;
+                font-style: italic;
+                letter-spacing: 5px;
+                padding: 10px 0 0 0;
+            }
+
+            h3 {
+                font-size: 53.88px;
+                font-weight: 500;
+                color: #7853A2;
+                width: 197px;
+                letter-spacing: 4.8px;
+                padding: 70px 0 0 2px;
+
+            }
+
+            .section3-conten-p {
+                font-size: 16px;
+                font-family: "Roboto Condensed", sans-serif;
+                width: 447px;
+                line-height: 28px;
+                padding: 15px 0 0 0px;
+            }
+            
+
+            
+        }
+
+        .section3-img {
+            vertical-align: middle;
+        }
+    }
+}
