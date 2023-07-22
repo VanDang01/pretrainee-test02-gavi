@@ -1,9 +1,14 @@
 .section3 {
+    background: #E6E1F0;
     height: 100%;
+    padding: 38px 0 43px;
+    position: relative;
 
     .section3-container {
-        border: #E6E1F0 solid 40px;
+        background: #FFFFFF;
         display: flex;
+        max-width: 1520px;
+        margin: 0 auto;
 
         .section3-conten {
             width: 50%;
@@ -25,7 +30,7 @@
                 color: #7853A2;
                 width: 204px;
                 letter-spacing: 5.5px;
-                padding: 67px 0 0 0px;
+                padding: 70px 0 0 0px;
 
             }
 
@@ -34,14 +39,16 @@
                 font-family: "Roboto Condensed", sans-serif;
                 width: 447px;
                 line-height: 28px;
-                padding: 17px 0 0 0px;
+                margin: 17px 0 0 -1px;
             }
             
 
             
         }
 
-        .section3-img {
+        .section3-img img{
+            width: 762px;
+            height: 886px;
             vertical-align: middle;
         }
     }

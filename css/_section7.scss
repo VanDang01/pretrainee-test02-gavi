@@ -1,0 +1,90 @@
+.section7 {
+    background-image: url('/img/Layer\ 17.png');
+    height: 969px;
+    background-size: cover;
+    position: relative;
+    margin-top: -6px;
+    background-position-x: -7px;
+
+    .section7-container {
+        color: #ffffff;
+        padding: 158px 0 0 242px;
+        width: 445px;
+
+        .section7-container-conten {
+            background: #414042;
+            height: 301px;
+            padding: 40px 0 0 45px;
+
+            .expert {
+                font-size: 16px;
+                font-weight: 600;
+                font-style: italic;
+                color: #EA572A;
+                letter-spacing: 2.4px;
+            }
+
+            h3 {
+                font-size: 53.88px;
+                font-weight: 500;
+                letter-spacing: 5.3px;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: "Roboto Condensed", sans-serif;
+                line-height: 21px;
+                padding-right: 20px;
+            }
+
+            img {
+                margin-top: 23px;
+            }
+        }
+
+        .section7-container-title {
+            display: flex;
+
+            .section7-container-title-item {
+                width: 253px;
+                height: 338px;
+                background: #3994D1;
+
+                .staff {
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-style: italic;
+                    padding: 32px 0 0 46px;
+                    letter-spacing: 2.4px;
+                }
+                p {
+                    font-size: 32px;
+                    padding: 15px 0 0 45px;
+                    width: 157px;
+                    letter-spacing: 3.3px;
+
+                }
+            }
+
+            .section7-container-title-link {
+                width: 193px;
+
+                .bullhorn {
+                    height: 77.99px;
+                    font-size: 32px;
+                    background: #7853A2;
+                    padding: 33px 0 0 79px;
+                    cursor: pointer;
+                }
+
+                .flask {
+                    height: 77.99px;
+                    font-size: 32px;
+                    background: #EA572A;
+                    padding: 33px 0 0 79px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

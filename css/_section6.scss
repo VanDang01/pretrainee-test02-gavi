@@ -1,0 +1,68 @@
+.section6 {
+    position: relative;
+
+    .section6-conten {
+        position: relative;
+        background: #EA572A;
+        width: 72.9%;
+        margin-top: 11px;
+        padding-bottom: 14.6%;
+
+
+        h3 {
+            font-size: 96px;
+            font-weight: 500;
+            color: #ffffff;
+            padding: 172px 0 0 244px;
+            width: 336px;
+            letter-spacing: 9.8px;
+        }
+
+        form {
+            flex-direction: column;
+            display: flex;
+            margin-top: 39px;
+            padding-left: 241px;
+
+            input {
+                width: 428px;
+                height: 59px;
+                font-size: 32px;
+                font-family: "Built Titling";
+                margin-bottom: 9px;
+                /* margin: 8px 0; */
+                /* padding-left: 18px; */
+                padding: 7px 0 0 20px;
+                /* margin-right: 1px; */
+                letter-spacing: 3.2px;
+                border: none;
+                color: black;
+            }
+
+            button {
+                cursor: pointer;
+                height: 59px;
+                width: 240px;
+                margin: 7px 0 0 -1px;
+                font-size: 32px;
+                padding: 3px 0 0 9px;
+                letter-spacing: 3px;
+                font-family: "Built Titling";
+                /* line-height: 3px; */
+                background: #414042;
+                color: #ffffff;
+                border: none;
+            }
+        }
+
+        .section6-img {
+            position: absolute;
+            right: -255px;
+            top: 102px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

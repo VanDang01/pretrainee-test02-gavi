@@ -39,6 +39,7 @@
             font-family: "Built Titling";
             letter-spacing: 2.8px;
             position: relative;
+            cursor: pointer;
         }
 
         button::after {
@@ -50,6 +51,7 @@
             right: 132px;
             top: 86px;
             background-color: #ffffff;
+            
         }
     }
 

@@ -40,7 +40,7 @@ header .header-menu .header-menu-item a {
   width: -moz-fit-content;
   width: fit-content;
   margin: 55px auto 52px auto;
-  padding-left: 6px;
+  padding-left: 4px;
 }
 header .button-header-hambuger {
   display: none;
@@ -179,6 +179,7 @@ header a img {
   font-family: "Built Titling";
   letter-spacing: 2.8px;
   position: relative;
+  cursor: pointer;
 }
 .section2 .section2-conten button::after {
   content: "";
@@ -289,11 +290,16 @@ header a img {
 }
 
 .section3 {
+  background: #E6E1F0;
   height: 100%;
+  padding: 38px 0 43px;
+  position: relative;
 }
 .section3 .section3-container {
-  border: #E6E1F0 solid 40px;
+  background: #FFFFFF;
   display: flex;
+  max-width: 1520px;
+  margin: 0 auto;
 }
 .section3 .section3-container .section3-conten {
   width: 50%;
@@ -313,16 +319,18 @@ header a img {
   color: #7853A2;
   width: 204px;
   letter-spacing: 5.5px;
-  padding: 67px 0 0 0px;
+  padding: 70px 0 0 0px;
 }
 .section3 .section3-container .section3-conten .section3-conten-p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
   width: 447px;
   line-height: 28px;
-  padding: 17px 0 0 0px;
+  margin: 17px 0 0 -1px;
 }
-.section3 .section3-container .section3-img {
+.section3 .section3-container .section3-img img {
+  width: 762px;
+  height: 886px;
   vertical-align: middle;
 }
 
@@ -342,7 +350,7 @@ header a img {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  top: 433px;
+  top: 480px;
   padding: 0 156px 0 89px;
 }
 .section4 .section4-conten {
@@ -350,7 +358,7 @@ header a img {
   background: #9277B5;
   color: #FFFFFF;
   position: relative;
-  top: -109px;
+  top: -62px;
   height: 275px;
 }
 .section4 .section4-conten .section4-conten-item {
@@ -359,16 +367,16 @@ header a img {
 }
 .section4 .section4-conten .section4-conten-item div {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
-  letter-spacing: 3.6px;
-  margin-top: -4px;
+  letter-spacing: 2.4px;
+  margin-top: -1px;
 }
 .section4 .section4-conten .section4-conten-item h3 {
   font-size: 53.88px;
   font-weight: 500;
   letter-spacing: 5.3px;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 .section4 .section4-conten .section4-conten-item p {
   font-size: 16px;
@@ -418,6 +426,426 @@ header a img {
   font-family: "Roboto Condensed", sans-serif;
   /* letter-spacing: 0px; */
   padding: 6px 0 0 18px;
+}
+
+.section5 {
+  display: flex;
+  padding: 120px 152px 123px 246px;
+}
+.section5 .section5-conten {
+  width: 50%;
+}
+.section5 .section5-conten h3 {
+  font-size: 53.88px;
+  font-weight: 500;
+  letter-spacing: 5.6px;
+  line-height: 66px;
+  margin: 0px 0 0 -3px;
+  color: #EA572A;
+}
+.section5 .section5-conten .section5-conten-p {
+  font-size: 16px;
+  width: 445.25px;
+  line-height: 29px;
+  margin: 40px 0 0 -2px;
+  /* letter-spacing: 0px; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+.section5 .section5-conten ul {
+  padding: 47px 0 0 0;
+  list-style: none;
+}
+.section5 .section5-conten ul i {
+  color: #EA572A;
+}
+.section5 .section5-conten ul .one {
+  display: flex;
+}
+.section5 .section5-conten ul .one i {
+  font-size: 32px;
+}
+.section5 .section5-conten ul .one div {
+  padding-left: 32px;
+  margin-top: -1px;
+}
+.section5 .section5-conten ul .one div span {
+  font-size: 32px;
+  letter-spacing: 3.1px;
+}
+.section5 .section5-conten ul .one div p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 0 0 3px;
+}
+.section5 .section5-conten ul .tow {
+  display: flex;
+}
+.section5 .section5-conten ul .tow i {
+  font-size: 32px;
+}
+.section5 .section5-conten ul .tow div {
+  padding: 4px 0 0 40px;
+}
+.section5 .section5-conten ul .tow div span {
+  font-size: 32px;
+  letter-spacing: 3.1px;
+}
+.section5 .section5-conten ul .tow div p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 0 0 3px;
+}
+.section5 .section5-conten ul .three {
+  display: flex;
+}
+.section5 .section5-conten ul .three i {
+  font-size: 32px;
+}
+.section5 .section5-conten ul .three div {
+  padding-left: 32px;
+  margin-top: 5px;
+}
+.section5 .section5-conten ul .three div span {
+  font-size: 32px;
+  letter-spacing: 3.1px;
+}
+.section5 .section5-conten ul .three div p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 0 0 3px;
+}
+.section5 .section5-conten ul .for {
+  display: flex;
+}
+.section5 .section5-conten ul .for i {
+  font-size: 32px;
+}
+.section5 .section5-conten ul .for div {
+  padding-left: 28px;
+  margin-top: 3px;
+}
+.section5 .section5-conten ul .for div span {
+  font-size: 32px;
+  letter-spacing: 3.1px;
+}
+.section5 .section5-conten ul .for div p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2px 0 0 3px;
+}
+.section5 .section5-img {
+  width: 55%;
+  position: relative;
+  top: 7px;
+}
+.section5 .section5-img img {
+  width: 633px;
+  height: 645px;
+}
+
+.section6 {
+  position: relative;
+}
+.section6 .section6-conten {
+  position: relative;
+  background: #EA572A;
+  width: 72.9%;
+  margin-top: 11px;
+  padding-bottom: 14.6%;
+}
+.section6 .section6-conten h3 {
+  font-size: 96px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 172px 0 0 244px;
+  width: 336px;
+  letter-spacing: 9.8px;
+}
+.section6 .section6-conten form {
+  flex-direction: column;
+  display: flex;
+  margin-top: 39px;
+  padding-left: 241px;
+}
+.section6 .section6-conten form input {
+  width: 428px;
+  height: 59px;
+  font-size: 32px;
+  font-family: "Built Titling";
+  margin-bottom: 9px;
+  /* margin: 8px 0; */
+  /* padding-left: 18px; */
+  padding: 7px 0 0 20px;
+  /* margin-right: 1px; */
+  letter-spacing: 3.2px;
+  border: none;
+  color: black;
+}
+.section6 .section6-conten form button {
+  cursor: pointer;
+  height: 59px;
+  width: 240px;
+  margin: 7px 0 0 -1px;
+  font-size: 32px;
+  padding: 3px 0 0 9px;
+  letter-spacing: 3px;
+  font-family: "Built Titling";
+  /* line-height: 3px; */
+  background: #414042;
+  color: #ffffff;
+  border: none;
+}
+.section6 .section6-conten .section6-img {
+  position: absolute;
+  right: -255px;
+  top: 102px;
+}
+.section6 .section6-conten .section6-img img {
+  width: 100%;
+}
+
+.section7 {
+  background-image: url("/img/Layer 17.png");
+  height: 969px;
+  background-size: cover;
+  position: relative;
+  margin-top: -6px;
+  background-position-x: -7px;
+}
+.section7 .section7-container {
+  color: #ffffff;
+  padding: 158px 0 0 242px;
+  width: 445px;
+}
+.section7 .section7-container .section7-container-conten {
+  background: #414042;
+  height: 301px;
+  padding: 40px 0 0 45px;
+}
+.section7 .section7-container .section7-container-conten .expert {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  color: #EA572A;
+  letter-spacing: 2.4px;
+}
+.section7 .section7-container .section7-container-conten h3 {
+  font-size: 53.88px;
+  font-weight: 500;
+  letter-spacing: 5.3px;
+}
+.section7 .section7-container .section7-container-conten p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 21px;
+  padding-right: 20px;
+}
+.section7 .section7-container .section7-container-conten img {
+  margin-top: 23px;
+}
+.section7 .section7-container .section7-container-title {
+  display: flex;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-item {
+  width: 253px;
+  height: 338px;
+  background: #3994D1;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-item .staff {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  padding: 32px 0 0 46px;
+  letter-spacing: 2.4px;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-item p {
+  font-size: 32px;
+  padding: 15px 0 0 45px;
+  width: 157px;
+  letter-spacing: 3.3px;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-link {
+  width: 193px;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-link .bullhorn {
+  height: 77.99px;
+  font-size: 32px;
+  background: #7853A2;
+  padding: 33px 0 0 79px;
+  cursor: pointer;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-link .flask {
+  height: 77.99px;
+  font-size: 32px;
+  background: #EA572A;
+  padding: 33px 0 0 79px;
+  cursor: pointer;
+}
+
+.section8 {
+  height: 100%;
+  background: #E6E1F0;
+  position: relative;
+  padding: 40px;
+}
+.section8 .section8-container {
+  background-image: url("/img/Layer 20.png");
+  height: 100%;
+  background-position-y: -20px;
+  background-position-x: -36PX;
+  padding: 176px 0 141px 0px;
+}
+.section8 .section8-container .section8-conten {
+  width: 919px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+.section8 .section8-container .section8-conten .section8-conten-item {
+  width: 431px;
+  height: 572px;
+  background: #7853A2;
+  margin-left: 2px;
+  color: #ffffff;
+}
+.section8 .section8-container .section8-conten .section8-conten-item h3 {
+  font-size: 48px;
+  font-weight: 500;
+  padding: 33px 0 0 35px;
+  letter-spacing: 4.7px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item p {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 34px 0 0 33.5px;
+  line-height: 27px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.section8 .section8-container .section8-conten .section8-conten-item a i {
+  padding: 42px 0 0 23px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item ul {
+  display: flex;
+  list-style: none;
+  padding: 47px 0 0 31px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item ul li {
+  margin-right: 20px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item div {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 6px 0 0 9px;
+}
+.section8 .section8-container .section8-conten .section8-conten-item div a {
+  text-decoration: none;
+}
+.section8 .section8-container .section8-conten .section8-conten-input {
+  height: 507px;
+  width: 482px;
+  background: #414042;
+  padding: 33.2px 33px 31.7px 36px;
+  display: flex;
+  flex-direction: column;
+}
+.section8 .section8-container .section8-conten .section8-conten-input h3 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57.6px;
+  color: #FFFFFF;
+  margin-bottom: 38.3px;
+  margin-left: -2px;
+  letter-spacing: 4.8px;
+}
+.section8 .section8-container .section8-conten .section8-conten-input input {
+  width: 466px;
+  height: 60px;
+  color: #FFFFFF;
+  background-color: #58595B;
+  border: none;
+  margin-bottom: 22px;
+  font-size: 32px;
+  font-family: "Built Titling";
+  padding: 1px 0 0 18px;
+  letter-spacing: 3.8px;
+}
+.section8 .section8-container .section8-conten textarea {
+  font-family: "Built Titling";
+  height: 168px;
+  font-size: 32px;
+  padding: 3.8px 0 0 18.8px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+  border: none;
+  background-color: #58595B;
+}
+.section8 .section8-container .section8-conten button {
+  font-family: "Built Titling";
+  width: 240px;
+  height: 59px;
+  background: #EA572A;
+  color: #FFFFFF;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin: 14.7px 0 7.7px -1px;
+  padding-left: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  padding: 130px 0 130px 244px;
+  background: #414042;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+footer .footer-title {
+  width: 100%;
+}
+footer .footer-title .title-item {
+  display: flex;
+}
+footer .footer-title .title-item .title-item-link {
+  border-bottom: 4px solid #FFFFFF;
+  margin-right: 97px;
+  list-style: none;
+  font-size: 18px;
+  padding: 30px 0 0 24px;
+  letter-spacing: 2.8px;
+  line-height: 38px;
+  color: #ffffff;
+}
+footer .footer-title .title-item .link-one {
+  padding: 30px 0 0 23px;
+}
+footer .footer-title .title-item .link-tow {
+  padding: 30px 0 0 8px;
+}
+footer .footer-title .title-item .link-three {
+  padding: 30px 0 0 0;
+}
+footer .footer-logo {
+  width: 50%;
+  height: 93px;
+  position: relative;
+  left: 0;
+  top: 21px;
+  background-color: #EA572A;
+}
+footer .footer-logo a {
+  display: block;
+  width: 179px;
+  margin: 24px 0 30px 35px;
+}
+footer .footer-logo a img {
+  width: 100%;
 }
 
 * {
