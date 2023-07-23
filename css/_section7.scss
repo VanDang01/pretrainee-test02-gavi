@@ -93,46 +93,57 @@
 @media screen and (max-width: 768px) {
     .section7 {
         background-position: 50% 50%;
+        height: 100%;
 
         .section7-container {
             padding: 0;
             width: 80%;
             margin: 0 auto;
             padding-top: 20%;
+            padding-bottom: 20%;
 
+
+            .section7-container-conten {
+                height: auto;
+            }
 
             .section7-container-title {
                 width: 100%;
+                flex-direction: column;
 
                 .section7-container-title-item {
-                    width: 50%;
+                    width: 100%;
+                    height: 100%;
 
                     .staff {
-                        padding-left: 15%;
+                        padding-left: 0;
+                        width: 100%;
+                        text-align: center;
                     }
 
                     p {
-                        width: 58%;
-                        padding-left: 14%;
+                        width: 100%;
+                        padding-left: 0;
+                        text-align: center;
                     }
                 }
                 .section7-container-title-link {
-                    width: 50%;
+                    width: 100%;
+                    display: flex;
+                    
 
                     .bullhorn {
-                        height: 50%;
-                        padding: 0;
-
-                        
+                        width: 50%;
+                        padding: 0; 
                     }
 
                     .flask {
-                        height: 50%;
+                        width: 50%;
                         padding: 0;
                     }
 
                     i {
-                        padding: 20% 45%;
+                        padding: 10% 50%;
                     }
                 }
             }

@@ -13,6 +13,7 @@ footer {
             display: flex;
 
             .title-item-link {
+                width: 138px;
                 border-bottom: 4px solid #FFFFFF;
                 margin-right: 97px;
                 list-style: none;
@@ -65,23 +66,24 @@ footer {
                 flex-direction: column;
 
                 .title-item-link {
-                    width: 18%;
+                    width: 135px;
                     margin: auto;
                 }
                 .link-one {
-                    width: 16%;
+                    width: 120px;
                 }
                 .link-tow {
-                    width: 8%;
+                    width: 60px;
                 }
                 .link-three {
-                    width: 7%;
+                    width: 55px;
                 }
             }
         }
 
         .footer-logo {
             margin-bottom: 50px;
+            width: 250px;
         }
     }
 }

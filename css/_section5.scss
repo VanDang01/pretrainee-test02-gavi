@@ -145,6 +145,7 @@
         width: 100%;
         padding: 0;
         flex-direction: column;
+        padding-top: 50px;
 
         .section5-conten {
             width: 100%;
@@ -165,9 +166,15 @@
         }
 
         .section5-img {
-            width: 100%;
+            width: 90%;
+            position: initial;
             padding: 60px 0;
-            padding-left: 9%;
+            padding-left: 5%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }

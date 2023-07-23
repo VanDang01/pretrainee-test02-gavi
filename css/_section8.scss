@@ -134,11 +134,12 @@
 
 @media screen and (max-width: 768px) {
     .section8 {
+        padding: 40px 10px;
         .section8-container {
-            padding: 30px 0;
+            padding:  0;
 
             .section8-conten {
-                width: 90%;
+                width: 100%;
                 flex-direction: column;
 
                 .section8-conten-item {
