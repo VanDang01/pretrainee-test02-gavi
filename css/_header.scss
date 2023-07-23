@@ -63,6 +63,18 @@ header {
 
         .header-logo-icon {
             padding-right: 11px;
+
+            a {
+                i::after {
+                    content: "";
+                    position: absolute;
+                    width: 20px;
+                    height: 4px;
+                    background: #FFFFFF;
+                    top: 25px;
+                    left: 0px; 
+                }
+            }
         }
     }
 
@@ -78,5 +90,46 @@ header {
     a img {
         padding-top: 4px;
         margin-right: -8px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden; 
+
+
+        .wrapper {
+            min-width: 100%;
+
+            header {
+                position: fixed;
+                z-index: 10;
+                width: 100%;
+
+                .header-navbar {
+                    .header-menu {
+                        display: none;
+                    }
+
+                    button {
+                        display: block;
+                        position: absolute;
+                        right: 20px;
+                        top: 17px;
+                        font-size: 26px;
+                        color: #ffffff;
+                        background: #7853A2;
+                        border: none;
+                    }
+                }
+
+                .header-logo {
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    padding-bottom: 10px;
+                }
+            }
+        }
     }
 }

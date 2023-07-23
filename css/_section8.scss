@@ -129,3 +129,67 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .section8 {
+        .section8-container {
+            padding: 30px 0;
+
+            .section8-conten {
+                width: 90%;
+                flex-direction: column;
+
+                .section8-conten-item {
+                    width: 100%;
+                    height: auto;
+                    margin-left: 0;
+                    padding-bottom: 30px;
+
+                    h3 {
+                        text-align: center;
+                        padding-left: 0;
+                    }
+
+                    p {
+                        text-align: center;
+                        padding-left: 0;
+                    }
+
+                    ul {
+                        flex-wrap: wrap;
+                    }
+                }
+                .section8-conten-input {
+                    width: 100%;
+                    padding: 0;
+
+                    h3 {
+                        width: 100%;
+                        text-align: center;
+                        padding-top: 30px;
+                    }
+
+                    input {
+                        width: 80%;
+                        margin: 0 auto;
+                        margin-bottom: 10px;
+                    }
+
+                    textarea {
+                        width: 80%;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+
+                    button {
+                        width: 40%;
+                        margin:  0 auto;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

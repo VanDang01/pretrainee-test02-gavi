@@ -138,3 +138,36 @@
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .section5 {
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+
+        .section5-conten {
+            width: 100%;
+
+            h3 {
+                text-align: center;
+            }
+
+            .section5-conten-p {
+                width: 90%;
+                padding-left: 5%;
+                text-align: center;
+            }
+
+            ul {
+                padding-left: 25%;
+            }
+        }
+
+        .section5-img {
+            width: 100%;
+            padding: 60px 0;
+            padding-left: 9%;
+        }
+    }
+}

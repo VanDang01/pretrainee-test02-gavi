@@ -53,3 +53,40 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .section3 {
+        padding: 16px;
+
+        .section3-container {
+            width: 100%;
+            flex-direction: column;
+
+            .section3-conten {
+                width: 100%;
+                text-align: center;
+                padding: 0;
+
+
+                .section3-conten-blog {
+                    padding-top: 50px;
+                }
+
+                h3 {
+                    width: 100%;
+                    padding-top: 20px;
+                }
+
+                .section3-conten-p {
+                    width: 90%;
+                    padding-left: 5%;
+                }
+            }
+
+            .section3-img img{
+                width: 100%;
+                padding-top: 10px;
+            }
+        }
+    }
+}

@@ -59,6 +59,10 @@
                     font-size: 26px;
                     letter-spacing: 3px;
                 }
+
+                .fa-angle-down {
+                    color: #ffffff;
+                }
             }
         }
         
@@ -79,5 +83,47 @@
         height: 1061px;
         width: 2px;
         background: #E5E0F0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        flex-direction: column;
+        height: 1005;
+        padding: 140px 16px;
+
+
+        .section1-conten {
+            position: initial;
+            width: 100%;
+
+            .section1-title {
+                text-align: center;
+                height: auto;
+                width: 100%;
+            }
+
+            .section1-describe {
+                width: 80%;
+                height: auto;
+                position: initial;
+                margin: 0 auto;
+            }
+
+            .section1-bottom {
+                bottom: 20px;
+                left: 0;
+                width: 80%;
+                padding-left: 10%;
+            }
+        }
+        .section1-img {
+            left: 0;
+
+            img {
+                width: 100%;
+            }
+        }
     }
 }

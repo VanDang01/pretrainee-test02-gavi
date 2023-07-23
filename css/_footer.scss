@@ -53,3 +53,35 @@ footer {
         }
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        padding: 0;
+
+        .footer-title {
+            .title-item {
+                flex-direction: column;
+
+                .title-item-link {
+                    width: 18%;
+                    margin: auto;
+                }
+                .link-one {
+                    width: 16%;
+                }
+                .link-tow {
+                    width: 8%;
+                }
+                .link-three {
+                    width: 7%;
+                }
+            }
+        }
+
+        .footer-logo {
+            margin-bottom: 50px;
+        }
+    }
+}
