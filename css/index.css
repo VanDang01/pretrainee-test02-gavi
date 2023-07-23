@@ -106,9 +106,13 @@ header a img {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 10px;
+    padding-right: 10%;
+    margin-right: 0;
   }
   body .wrapper header .header-logo .header-logo-icon {
     display: flex;
+    padding-right: 0;
+    margin-top: -9px;
   }
 }
 .section1 {
@@ -1170,22 +1174,25 @@ footer .footer-title .title-item {
 footer .footer-title .title-item .title-item-link {
   width: 138px;
   border-bottom: 4px solid #FFFFFF;
-  margin-right: 97px;
+  margin-right: 82px;
   list-style: none;
   font-size: 18px;
-  padding: 30px 0 0 24px;
+  padding: 31px 0 0 24px;
   letter-spacing: 2.8px;
   line-height: 38px;
   color: #ffffff;
 }
 footer .footer-title .title-item .link-one {
-  padding: 30px 0 0 23px;
+  width: 117px;
+  padding: 30px 0 0 20px;
 }
 footer .footer-title .title-item .link-tow {
-  padding: 30px 0 0 8px;
+  width: 61px;
+  padding: 30px 0 0 11px;
 }
 footer .footer-title .title-item .link-three {
-  padding: 30px 0 0 0;
+  width: 66px;
+  padding: 30px 0 0 10px;
 }
 footer .footer-logo {
   width: 50%;
