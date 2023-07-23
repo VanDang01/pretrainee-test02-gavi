@@ -30,6 +30,10 @@ header {
             width: 366px;
             height: 132px;
 
+           .item-were {
+            padding-left: 8px;
+           }
+
             a {
                 display: flex;
                 justify-content: center;
@@ -87,9 +91,10 @@ header {
         }
     }
     
-    a img {
+    .img-logo {
         padding-top: 4px;
         margin-right: -8px;
+        padding-right: 3%;
     }
 }
 

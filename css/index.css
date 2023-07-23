@@ -26,6 +26,9 @@ header .header-menu .header-menu-item {
   width: 366px;
   height: 132px;
 }
+header .header-menu .header-menu-item .item-were {
+  padding-left: 8px;
+}
 header .header-menu .header-menu-item a {
   display: flex;
   justify-content: center;
@@ -72,9 +75,10 @@ header a i {
   color: #E5E0F0;
   position: relative;
 }
-header a img {
+header .img-logo {
   padding-top: 4px;
   margin-right: -8px;
+  padding-right: 3%;
 }
 
 @media screen and (max-width: 768px) {
@@ -139,8 +143,10 @@ header a img {
   color: #FFFFFF;
   position: relative;
   z-index: 2;
-  letter-spacing: 5.7px;
+  letter-spacing: 5.4px;
   line-height: 64.66px;
+  padding-left: 2px;
+  margin-top: -1px;
 }
 .section1 .section1-conten .section1-describe {
   width: 313px;
@@ -179,7 +185,7 @@ header a img {
 .section1 .section1-img {
   position: relative;
   top: 12px;
-  right: 1.2%;
+  right: 1.3%;
 }
 .section1 .section1-conten::after {
   content: "";
@@ -243,15 +249,16 @@ header a img {
   width: 421px;
   color: #ffffff;
   letter-spacing: 5.3px;
+  margin-left: -1px;
 }
 .section2 .section2-conten p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
   width: 445px;
   padding-top: 40.3px;
-  line-height: 27px;
+  line-height: 28px;
   color: #ffffff;
-  margin-left: -2px;
+  margin-left: -3px;
 }
 .section2 .section2-conten .button-meet {
   border: none;
@@ -267,16 +274,16 @@ header a img {
   align-items: center;
   letter-spacing: 2.7px;
   font-size: 18px;
-  margin-top: 110px;
+  margin-top: 107px;
   text-decoration: none;
 }
 .section2 .section2-conten .button-meet::after {
   content: "";
-  width: 40%;
+  width: 42%;
   height: 3px;
   position: absolute;
   right: auto;
-  top: 86px;
+  top: 84px;
   background-color: #ffffff;
 }
 .section2 .section2-list {
@@ -451,7 +458,7 @@ header a img {
   font-family: "Roboto Condensed", sans-serif;
   width: 447px;
   line-height: 28px;
-  margin: 17px 0 0 -1px;
+  margin: 16px 0 0 -1px;
 }
 .section3 .section3-container .section3-img img {
   width: 762px;
@@ -525,19 +532,19 @@ header a img {
   font-weight: 600;
   font-style: italic;
   letter-spacing: 2.4px;
-  margin-top: -1px;
+  margin-top: -3px;
 }
 .section4 .section4-conten .section4-conten-item h3 {
   font-size: 53.88px;
   font-weight: 500;
   letter-spacing: 5.3px;
-  padding-top: 5px;
+  padding-top: 6px;
 }
 .section4 .section4-conten .section4-conten-item p {
   font-size: 16px;
   width: 446.37px;
   letter-spacing: px;
-  line-height: 27px;
+  line-height: 28px;
   padding: 9px 0 0 0;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -631,21 +638,21 @@ header a img {
 .section5 .section5-conten h3 {
   font-size: 53.88px;
   font-weight: 500;
-  letter-spacing: 5.6px;
+  letter-spacing: 5.4px;
   line-height: 66px;
-  margin: 0px 0 0 -3px;
+  margin: 0px 0 0 -1px;
   color: #EA572A;
 }
 .section5 .section5-conten .section5-conten-p {
   font-size: 16px;
   width: 445.25px;
-  line-height: 29px;
+  line-height: 28px;
   margin: 40px 0 0 -2px;
   /* letter-spacing: 0px; */
   font-family: "Roboto Condensed", sans-serif;
 }
 .section5 .section5-conten ul {
-  padding: 47px 0 0 0;
+  padding: 48px 0 0 0;
   list-style: none;
 }
 .section5 .section5-conten ul i {
@@ -794,14 +801,15 @@ header a img {
   padding-left: 241px;
 }
 .section6 .section6-conten form input {
-  width: 428px;
-  height: 59px;
+  width: 427px;
+  height: 56px;
   font-size: 32px;
   font-family: "Built Titling";
   margin-bottom: 9px;
   /* margin: 8px 0; */
-  /* padding-left: 18px; */
-  padding: 7px 0 0 20px;
+  padding-left: 17px;
+  padding-top: 4px;
+  margin: 2px 0 13px 3px;
   /* margin-right: 1px; */
   letter-spacing: 3.2px;
   border: none;
@@ -811,9 +819,9 @@ header a img {
   cursor: pointer;
   height: 59px;
   width: 240px;
-  margin: 7px 0 0 -1px;
+  margin: 6px 0 0 3px;
   font-size: 32px;
-  padding: 3px 0 0 9px;
+  padding: 3px 0 0 3px;
   letter-spacing: 3px;
   font-family: "Built Titling";
   /* line-height: 3px; */
@@ -824,7 +832,7 @@ header a img {
 .section6 .section6-conten .section6-img {
   position: absolute;
   right: -255px;
-  top: 102px;
+  top: 100px;
 }
 .section6 .section6-conten .section6-img img {
   width: 100%;
@@ -872,7 +880,7 @@ header a img {
 }
 .section7 .section7-container {
   color: #ffffff;
-  padding: 158px 0 0 242px;
+  padding: 161px 0 0 242px;
   width: 445px;
 }
 .section7 .section7-container .section7-container-conten {
@@ -886,6 +894,7 @@ header a img {
   font-style: italic;
   color: #EA572A;
   letter-spacing: 2.4px;
+  margin-top: -2px;
 }
 .section7 .section7-container .section7-container-conten h3 {
   font-size: 53.88px;
@@ -897,12 +906,17 @@ header a img {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 21px;
   padding-right: 20px;
+  margin: 0 0 0 -1px;
+}
+.section7 .section7-container .section7-container-conten .p-tow {
+  padding-top: -1px;
 }
 .section7 .section7-container .section7-container-conten img {
-  margin-top: 23px;
+  margin-top: 25px;
 }
 .section7 .section7-container .section7-container-title {
   display: flex;
+  margin-top: -2px;
 }
 .section7 .section7-container .section7-container-title .section7-container-title-item {
   width: 253px;
@@ -911,10 +925,10 @@ header a img {
 }
 .section7 .section7-container .section7-container-title .section7-container-title-item .staff {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   font-style: italic;
   padding: 32px 0 0 46px;
-  letter-spacing: 2.4px;
+  letter-spacing: 1.6px;
 }
 .section7 .section7-container .section7-container-title .section7-container-title-item p {
   font-size: 32px;
@@ -1018,7 +1032,7 @@ header a img {
 .section8 .section8-container .section8-conten .section8-conten-item h3 {
   font-size: 48px;
   font-weight: 500;
-  padding: 33px 0 0 35px;
+  padding: 32px 0 0 35px;
   letter-spacing: 4.7px;
 }
 .section8 .section8-container .section8-conten .section8-conten-item p {
@@ -1068,10 +1082,14 @@ header a img {
   margin-bottom: 38.3px;
   margin-left: -2px;
   letter-spacing: 4.8px;
+  margin-top: -2px;
+}
+.section8 .section8-container .section8-conten .section8-conten-input .my-name {
+  padding: 4px 0 0 18px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input input {
-  width: 466px;
-  height: 60px;
+  width: 465px;
+  height: 57px;
   color: #FFFFFF;
   background-color: #58595B;
   border: none;
@@ -1083,13 +1101,14 @@ header a img {
 }
 .section8 .section8-container .section8-conten textarea {
   font-family: "Built Titling";
-  height: 168px;
+  height: 160px;
   font-size: 32px;
-  padding: 3.8px 0 0 18.8px;
-  letter-spacing: 3px;
+  padding: 6.8px 0 0 18.8px;
+  letter-spacing: 3.2px;
   color: #FFFFFF;
   border: none;
   background-color: #58595B;
+  margin-top: -1px;
 }
 .section8 .section8-container .section8-conten button {
   font-family: "Built Titling";
@@ -1099,7 +1118,7 @@ header a img {
   color: #FFFFFF;
   font-size: 32px;
   letter-spacing: 3px;
-  margin: 14.7px 0 7.7px -1px;
+  margin: 17px 0 7.7px -1px;
   padding-left: 4px;
   border: none;
   cursor: pointer;
@@ -1179,22 +1198,23 @@ footer .footer-title .title-item .title-item-link {
   margin-right: 82px;
   list-style: none;
   font-size: 18px;
-  padding: 31px 0 0 24px;
+  padding: 30px 0 0 24px;
   letter-spacing: 2.8px;
   line-height: 38px;
   color: #ffffff;
 }
 footer .footer-title .title-item .link-one {
   width: 117px;
-  padding: 30px 0 0 20px;
+  padding: 28px 0 0 20px;
 }
 footer .footer-title .title-item .link-tow {
   width: 61px;
-  padding: 30px 0 0 11px;
+  padding: 29px 0 0 11px;
 }
 footer .footer-title .title-item .link-three {
   width: 66px;
-  padding: 30px 0 0 10px;
+  padding: 29px 0 0 10px;
+  line-height: 38px;
 }
 footer .footer-logo {
   width: 50%;
@@ -1256,4 +1276,21 @@ body {
   overflow: hidden;
   position: relative;
   min-width: 1600px;
+}
+
+@media screen and (min-width: 1650px) {
+  header .header-menu .active::after {
+    content: "";
+    position: absolute;
+    top: 84px;
+    padding: 50;
+    left: 0;
+    margin-left: 107px;
+    height: 4px;
+    width: 150px;
+    background: #E5E0F0;
+  }
+  .section2 {
+    padding-left: 16.5%;
+  }
 }/*# sourceMappingURL=index.css.map */

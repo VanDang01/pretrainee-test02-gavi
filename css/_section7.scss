@@ -8,7 +8,7 @@
 
     .section7-container {
         color: #ffffff;
-        padding: 158px 0 0 242px;
+        padding: 161px 0 0 242px;
         width: 445px;
 
         .section7-container-conten {
@@ -22,6 +22,7 @@
                 font-style: italic;
                 color: #EA572A;
                 letter-spacing: 2.4px;
+                margin-top: -2px;
             }
 
             h3 {
@@ -35,15 +36,21 @@
                 font-family: "Roboto Condensed", sans-serif;
                 line-height: 21px;
                 padding-right: 20px;
+                margin:  0 0 0 -1px;
+            }
+
+            .p-tow {
+                padding-top: -1px;
             }
 
             img {
-                margin-top: 23px;
+                margin-top: 25px;
             }
         }
 
         .section7-container-title {
             display: flex;
+            margin-top: -2px;
 
             .section7-container-title-item {
                 width: 253px;
@@ -52,10 +59,10 @@
 
                 .staff {
                     font-size: 16px;
-                    font-weight: 600;
+                    font-weight: 700;
                     font-style: italic;
                     padding: 32px 0 0 46px;
-                    letter-spacing: 2.4px;
+                    letter-spacing: 1.6px;
                 }
                 p {
                     font-size: 32px;

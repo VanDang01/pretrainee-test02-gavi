@@ -16,6 +16,7 @@
             width: 421px;
             color: #ffffff;
             letter-spacing: 5.3px;
+            margin-left: -1px;
         }
 
         p {
@@ -23,9 +24,9 @@
             font-family: "Roboto Condensed", sans-serif;
             width: 445px;
             padding-top: 40.3px;
-            line-height: 27px;
+            line-height: 28px;
             color: #ffffff;
-            margin-left: -2px;
+            margin-left: -3px;
         }
 
         .button-meet {
@@ -42,18 +43,18 @@
             align-items: center;
             letter-spacing: 2.7px;
             font-size: 18px;
-            margin-top: 110px;
+            margin-top: 107px;
             text-decoration: none;
         }
 
         .button-meet::after {
             content: "";
-            width: 40%;
+            width: 42%;
             height: 3px;
             position: absolute;
             right: auto;
-            top: 86px;
-            background-color: #ffffff; 
+            top: 84px;
+            background-color: #ffffff;
         }
     }
 

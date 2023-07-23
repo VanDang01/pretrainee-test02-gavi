@@ -25,14 +25,15 @@
             padding-left: 241px;
 
             input {
-                width: 428px;
-                height: 59px;
+                width: 427px;
+                height: 56px;
                 font-size: 32px;
                 font-family: "Built Titling";
                 margin-bottom: 9px;
                 /* margin: 8px 0; */
-                /* padding-left: 18px; */
-                padding: 7px 0 0 20px;
+                padding-left: 17px;
+                padding-top: 4px;
+                margin: 2px 0 13px 3px;
                 /* margin-right: 1px; */
                 letter-spacing: 3.2px;
                 border: none;
@@ -43,9 +44,9 @@
                 cursor: pointer;
                 height: 59px;
                 width: 240px;
-                margin: 7px 0 0 -1px;
+                margin: 6px 0 0 3px;
                 font-size: 32px;
-                padding: 3px 0 0 9px;
+                padding: 3px 0 0 3px;
                 letter-spacing: 3px;
                 font-family: "Built Titling";
                 /* line-height: 3px; */
@@ -58,7 +59,7 @@
         .section6-img {
             position: absolute;
             right: -255px;
-            top: 102px;
+            top: 100px;
 
             img {
                 width: 100%;

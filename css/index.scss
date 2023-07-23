@@ -34,6 +34,23 @@ body {
 
 
 
+@media screen and (min-width: 1650px) {
+    
+    header .header-menu .active::after {
+        content: "";
+        position: absolute;
+        top: 84px;
+        padding: 50;
+        left: 0;
+        margin-left: 107px;
+        height: 4px;
+        width: 150px;
+        background: #E5E0F0;
+    }
 
+    .section2 {
+        padding-left: 16.5%;
+    }
+}
 
 
