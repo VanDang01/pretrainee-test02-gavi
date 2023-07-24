@@ -529,7 +529,7 @@ header .img-logo {
   background: #9277B5;
   color: #FFFFFF;
   position: relative;
-  top: -62px;
+  top: -60px;
   height: 275px;
 }
 .section4 .section4-conten .section4-conten-item {
@@ -554,7 +554,7 @@ header .img-logo {
   width: 446.37px;
   letter-spacing: px;
   line-height: 28px;
-  padding: 7px 0 0 0;
+  padding: 5px 0 0 0;
   font-family: "Roboto Condensed", sans-serif;
 }
 .section4 .section4-conten .section4-conten-link {
@@ -642,7 +642,7 @@ header .img-logo {
 }
 .section5 {
   display: flex;
-  padding: 120px 152px 123px 246px;
+  padding: 121px 152px 123px 246px;
 }
 .section5 .section5-conten {
   width: 50%;
@@ -717,7 +717,7 @@ header .img-logo {
 }
 .section5 .section5-conten ul .three div {
   padding-left: 32px;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 .section5 .section5-conten ul .three div span {
   font-size: 32px;
@@ -910,7 +910,7 @@ header .img-logo {
 .section7 .section7-container .section7-container-conten {
   background: #414042;
   height: 301px;
-  padding: 38px 0 0 45px;
+  padding: 37px 0 0 45px;
 }
 .section7 .section7-container .section7-container-conten .expert {
   font-size: 16px;
