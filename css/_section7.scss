@@ -15,7 +15,7 @@
         .section7-container-conten {
             background: #414042;
             height: 301px;
-            padding: 37px 0 0 45px;
+            padding: 39px 0 0 45px;
 
             .expert {
                 // font-size: 16px;
@@ -29,7 +29,7 @@
                 font-style: italic;
                 color: #EA572A;
                 letter-spacing: 2.4px;
-                margin-top: -1px;
+                margin-top: 1px;
             }
 
             h3 {
@@ -58,13 +58,13 @@
 
             img {
                 // margin-top: 22px;
-                margin-top: 31px;
+                margin-top: 32px;
             }
         }
 
         .section7-container-title {
             display: flex;
-            margin-top: -2px;
+            // margin-top: -2px;
 
             .section7-container-title-item {
                 width: 253px;
@@ -75,12 +75,12 @@
                     font-size: 16px;
                     font-weight: 700;
                     font-style: italic;
-                    padding: 32px 0 0 46px;
+                    padding: 31px 0 0 46px;
                     letter-spacing: 1.6px;
                 }
                 p {
                     font-size: 32px;
-                    padding: 16px 0 0 45px;
+                    padding: 15px 0 0 45px;
                     width: 157px;
                     letter-spacing: 3.3px;
                     line-height: 39px;

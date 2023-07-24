@@ -910,7 +910,7 @@ header .img-logo {
 .section7 .section7-container .section7-container-conten {
   background: #414042;
   height: 301px;
-  padding: 37px 0 0 45px;
+  padding: 39px 0 0 45px;
 }
 .section7 .section7-container .section7-container-conten .expert {
   font-size: 16px;
@@ -918,7 +918,7 @@ header .img-logo {
   font-style: italic;
   color: #EA572A;
   letter-spacing: 2.4px;
-  margin-top: -1px;
+  margin-top: 1px;
 }
 .section7 .section7-container .section7-container-conten h3 {
   font-size: 53.88px;
@@ -936,11 +936,10 @@ header .img-logo {
   margin-top: 0;
 }
 .section7 .section7-container .section7-container-conten img {
-  margin-top: 31px;
+  margin-top: 32px;
 }
 .section7 .section7-container .section7-container-title {
   display: flex;
-  margin-top: -2px;
 }
 .section7 .section7-container .section7-container-title .section7-container-title-item {
   width: 253px;
@@ -951,12 +950,12 @@ header .img-logo {
   font-size: 16px;
   font-weight: 700;
   font-style: italic;
-  padding: 32px 0 0 46px;
+  padding: 31px 0 0 46px;
   letter-spacing: 1.6px;
 }
 .section7 .section7-container .section7-container-title .section7-container-title-item p {
   font-size: 32px;
-  padding: 16px 0 0 45px;
+  padding: 15px 0 0 45px;
   width: 157px;
   letter-spacing: 3.3px;
   line-height: 39px;
