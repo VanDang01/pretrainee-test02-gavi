@@ -385,7 +385,7 @@ header .img-logo {
   padding: 26px 30px 0px 30px;
 }
 .section2 .section2-list .list-item-three .list-item-img img {
-  padding-top: 81px;
+  padding-top: 78px;
 }
 
 @media screen and (max-width: 768px) {
@@ -503,6 +503,7 @@ header .img-logo {
 }
 .section4 {
   position: relative;
+  margin-top: -2px;
 }
 .section4 .section4-img {
   position: relative;
@@ -532,7 +533,7 @@ header .img-logo {
   height: 275px;
 }
 .section4 .section4-conten .section4-conten-item {
-  padding: 72px 208px 52px 245px;
+  padding: 73px 208px 52px 245px;
   width: 28.7%;
 }
 .section4 .section4-conten .section4-conten-item div {
@@ -570,7 +571,7 @@ header .img-logo {
 }
 .section4 .section4-conten .section4-conten-link .calendar i {
   font-size: 87.28px;
-  padding-top: 72px;
+  padding-top: 74px;
 }
 .section4 .section4-conten .section4-conten-link .calendar span {
   font-size: 32px;
@@ -580,7 +581,7 @@ header .img-logo {
 .section4 .section4-conten .section4-conten-link .mappin {
   display: flex;
   margin-left: 49.3px;
-  margin-top: 40px;
+  margin-top: 43px;
 }
 .section4 .section4-conten .section4-conten-link .mappin i {
   font-size: 32px;
@@ -663,7 +664,7 @@ header .img-logo {
   font-family: "Roboto Condensed", sans-serif;
 }
 .section5 .section5-conten ul {
-  padding: 49px 0 0 0;
+  padding: 51px 0 0 0;
   list-style: none;
 }
 .section5 .section5-conten ul i {
@@ -798,7 +799,7 @@ header .img-logo {
   background: #EA572A;
   width: 72.9%;
   margin-top: 11px;
-  padding-bottom: 14.8%;
+  padding-bottom: 14.9%;
 }
 .section6 .section6-conten h3 {
   font-size: 96px;
@@ -823,7 +824,7 @@ header .img-logo {
   /* margin: 8px 0; */
   padding-left: 17px;
   padding-top: 4px;
-  margin: 2px 0 13px 3px;
+  margin: 3px 0 13px 3px;
   /* margin-right: 1px; */
   letter-spacing: 3.2px;
   border: none;
@@ -899,6 +900,7 @@ header .img-logo {
   position: relative;
   margin-top: -6px;
   background-position-x: -7px;
+  background-position-y: -5px;
 }
 .section7 .section7-container {
   color: #ffffff;
@@ -908,7 +910,7 @@ header .img-logo {
 .section7 .section7-container .section7-container-conten {
   background: #414042;
   height: 301px;
-  padding: 40px 0 0 45px;
+  padding: 38px 0 0 45px;
 }
 .section7 .section7-container .section7-container-conten .expert {
   font-size: 16px;
@@ -926,12 +928,12 @@ header .img-logo {
 .section7 .section7-container .section7-container-conten p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
-  line-height: 20px;
+  line-height: 19px;
   padding-right: 20px;
   margin: 0px 0 0 -1px;
 }
 .section7 .section7-container .section7-container-conten .p-tow {
-  margin-top: -3px;
+  margin-top: 0;
 }
 .section7 .section7-container .section7-container-conten img {
   margin-top: 31px;
@@ -1037,7 +1039,7 @@ header .img-logo {
   background: #E6E1F0;
   position: relative;
   padding: 40px;
-  margin-top: -2px;
+  margin-top: -4px;
 }
 .section8 .section8-container {
   background-image: url("/img/Layer 20.png");
@@ -1068,7 +1070,7 @@ header .img-logo {
 .section8 .section8-container .section8-conten .section8-conten-item p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
-  padding: 33px 0 0 33.5px;
+  padding: 30px 0 0 33.5px;
   line-height: 28px;
 }
 .section8 .section8-container .section8-conten .section8-conten-item a {
@@ -1119,7 +1121,7 @@ header .img-logo {
   margin-top: -2px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input .my-name {
-  padding: 9px 0 0 18px;
+  padding: 7px 0 0 18px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input input {
   width: 465px;
@@ -1141,9 +1143,9 @@ header .img-logo {
 }
 .section8 .section8-container .section8-conten textarea {
   font-family: "Built Titling";
-  height: 160px;
+  height: 158px;
   font-size: 32px;
-  padding: 11.8px 0 0 18.8px;
+  padding: 11px 0 0 18.8px;
   letter-spacing: 3.2px;
   color: #FFFFFF;
   border: none;
@@ -1158,7 +1160,7 @@ header .img-logo {
   color: #FFFFFF;
   font-size: 32px;
   letter-spacing: 3px;
-  margin: 18px 0 7.7px -1px;
+  margin: 17px 0 7.7px -1px;
   padding-left: 4px;
   border: none;
   cursor: pointer;
