@@ -1,9 +1,14 @@
 .section2 {
+    // display: flex;
+    // background: #3994D1;
+    // padding-top: -8px;
+    // margin-top: -2px;
+    // padding: 256px 0px 202px 248px;
     display: flex;
     background: #3994D1;
     padding-top: -8px;
     margin-top: -2px;
-    padding: 256px 0px 202px 248px;
+    padding: 251px 0px 202px 248px;
 
 
     .section2-conten {
@@ -20,16 +25,38 @@
         }
 
         p {
+            // font-size: 16px;
+            // font-family: "Roboto Condensed", sans-serif;
+            // width: 445px;
+            // padding-top: 42.3px;
+            // line-height: 28px;
+            // color: #ffffff;
+            // margin-left: -3px;
             font-size: 16px;
             font-family: "Roboto Condensed", sans-serif;
             width: 445px;
-            padding-top: 42.3px;
+            padding-top: 39.3px;
             line-height: 28px;
             color: #ffffff;
             margin-left: -3px;
         }
 
         .button-meet {
+            // border: none;
+            // font-family: "Built Titling";
+            // cursor: pointer;
+            // position: relative;
+            // width: 445px;
+            // height: 129px;
+            // background: #5DA7D9;
+            // color: #FFFFFF;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // letter-spacing: 2.7px;
+            // font-size: 18px;
+            // margin-top: 107px;
+            // text-decoration: none;
             border: none;
             font-family: "Built Titling";
             cursor: pointer;
@@ -43,7 +70,7 @@
             align-items: center;
             letter-spacing: 2.7px;
             font-size: 18px;
-            margin-top: 107px;
+            margin-top: 109px;
             text-decoration: none;
         }
 
