@@ -10,10 +10,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: -19px;
+    margin-top: -1px;
 
     .footer-title {
         width: 100%;
+        margin-top: -36px;
 
         .title-item {
             display: flex;
@@ -56,7 +57,7 @@ footer {
         height: 93px;
         position: relative;
         left: 0;
-        top: 21px;
+        top: 4px;
         background-color: #EA572A;  
         a {
             display: block;
