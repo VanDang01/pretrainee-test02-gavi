@@ -287,6 +287,9 @@ header .img-logo {
   top: 84px;
   background-color: #ffffff;
 }
+.section2 .section2-conten .button-meet:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 .section2 .section2-list {
   display: flex;
   position: relative;
@@ -845,6 +848,9 @@ header .img-logo {
   color: #ffffff;
   border: none;
 }
+.section6 .section6-conten form button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 .section6 .section6-conten .section6-img {
   position: absolute;
   right: -255px;
@@ -963,12 +969,18 @@ header .img-logo {
   padding: 33px 0 0 79px;
   cursor: pointer;
 }
+.section7 .section7-container .section7-container-title .section7-container-title-link .bullhorn a {
+  color: #ffffff;
+}
 .section7 .section7-container .section7-container-title .section7-container-title-link .flask {
   height: 77.99px;
   font-size: 32px;
   background: #EA572A;
   padding: 36px 0 0 79px;
   cursor: pointer;
+}
+.section7 .section7-container .section7-container-title .section7-container-title-link .flask a {
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
@@ -1151,6 +1163,9 @@ header .img-logo {
   border: none;
   cursor: pointer;
 }
+.section8 .section8-container .section8-conten button:hover {
+  box-shadow: 0 12px 16px 0 rgba(129, 126, 126, 0.384), 0 17px 50px 0 rgba(141, 138, 138, 0.19);
+}
 
 @media screen and (max-width: 768px) {
   .section8 {
@@ -1219,6 +1234,9 @@ footer .footer-title {
 }
 footer .footer-title .title-item {
   display: flex;
+}
+footer .footer-title .title-item a {
+  text-decoration: none;
 }
 footer .footer-title .title-item .title-item-link {
   width: 138px;
