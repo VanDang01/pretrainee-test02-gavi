@@ -69,6 +69,10 @@
 
                     a {
                         text-decoration: none;
+
+                        i {
+                            padding: 42px 0 0 23px;
+                        }
                     }
                 }
             }
@@ -92,7 +96,7 @@
                 }
 
                 .my-name {
-                    padding: 7px 0 0 18px;
+                    padding: 9px 0 0 18px;
                 }
                 input {
                     // width: 465px;
@@ -113,8 +117,8 @@
                     margin-bottom: 22px;
                     font-size: 32px;
                     font-family: "Built Titling";
-                    padding: 5px 0 0 18px;
-                    letter-spacing: 3.8px;
+                    padding: 4px 0 0 18px;
+                    letter-spacing: 3.6px;
                 }
 
                 :-ms-input-placeholder { 

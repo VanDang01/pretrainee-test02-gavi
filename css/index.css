@@ -437,8 +437,8 @@ header .img-logo {
 }
 .section3 .section3-container .section3-conten {
   width: 50%;
-  padding-top: 207px;
-  padding-left: 206.4px;
+  padding-top: 208px;
+  padding-left: 206.5px;
 }
 .section3 .section3-container .section3-conten .section3-conten-blog {
   font-size: 32px;
@@ -460,7 +460,7 @@ header .img-logo {
   font-family: "Roboto Condensed", sans-serif;
   width: 447px;
   line-height: 28px;
-  margin: 17px 0 0 -1px;
+  margin: 16px 0 0 -1px;
 }
 .section3 .section3-container .section3-img img {
   width: 762px;
@@ -920,9 +920,9 @@ header .img-logo {
 .section7 .section7-container .section7-container-conten p {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
-  line-height: 21px;
+  line-height: 20px;
   padding-right: 20px;
-  margin: -2px 0 0 -1px;
+  margin: 0px 0 0 -1px;
 }
 .section7 .section7-container .section7-container-conten .p-tow {
   margin-top: -3px;
@@ -967,7 +967,7 @@ header .img-logo {
   height: 77.99px;
   font-size: 32px;
   background: #EA572A;
-  padding: 33px 0 0 79px;
+  padding: 36px 0 0 79px;
   cursor: pointer;
 }
 
@@ -1085,6 +1085,9 @@ header .img-logo {
 .section8 .section8-container .section8-conten .section8-conten-item div a {
   text-decoration: none;
 }
+.section8 .section8-container .section8-conten .section8-conten-item div a i {
+  padding: 42px 0 0 23px;
+}
 .section8 .section8-container .section8-conten .section8-conten-input {
   height: 507px;
   width: 482px;
@@ -1104,7 +1107,7 @@ header .img-logo {
   margin-top: -2px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input .my-name {
-  padding: 7px 0 0 18px;
+  padding: 9px 0 0 18px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input input {
   width: 465px;
@@ -1115,8 +1118,8 @@ header .img-logo {
   margin-bottom: 22px;
   font-size: 32px;
   font-family: "Built Titling";
-  padding: 5px 0 0 18px;
-  letter-spacing: 3.8px;
+  padding: 4px 0 0 18px;
+  letter-spacing: 3.6px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input ::-moz-placeholder {
   color: #ffffff;
