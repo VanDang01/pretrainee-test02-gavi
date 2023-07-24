@@ -623,6 +623,9 @@ header .img-logo {
     padding: 20px;
     width: 100%;
   }
+  .section4 .section4-conten .section4-conten-item h3 {
+    width: 90%;
+  }
   .section4 .section4-conten .section4-conten-item p {
     width: 90%;
   }
