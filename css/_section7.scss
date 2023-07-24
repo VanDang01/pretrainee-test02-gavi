@@ -8,7 +8,7 @@
 
     .section7-container {
         color: #ffffff;
-        padding: 161px 0 0 242px;
+        padding: 156px 0 0 242px;
         width: 445px;
 
         .section7-container-conten {
@@ -34,13 +34,13 @@
             p {
                 font-size: 16px;
                 font-family: "Roboto Condensed", sans-serif;
-                line-height: 21px;
+                line-height: 23px;
                 padding-right: 20px;
                 margin:  0 0 0 -1px;
             }
 
             .p-tow {
-                padding-top: -1px;
+                margin-top: -4px;
             }
 
             img {
@@ -66,9 +66,10 @@
                 }
                 p {
                     font-size: 32px;
-                    padding: 15px 0 0 45px;
+                    padding: 16px 0 0 45px;
                     width: 157px;
                     letter-spacing: 3.3px;
+                    line-height: 39px;
 
                 }
             }
