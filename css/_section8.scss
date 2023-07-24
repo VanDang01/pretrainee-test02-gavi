@@ -47,7 +47,7 @@
                     font-family: "Roboto Condensed", sans-serif;
 
                     i {
-                        padding: 42px 0 0 23px;
+                        padding: 40px 0 0 23px;
                     }
                 }
 
@@ -58,6 +58,7 @@
 
                     li {
                         margin-right: 20px;
+                        cursor: pointer;
                     }
                 }
 
@@ -91,27 +92,38 @@
                 }
 
                 .my-name {
-                    padding: 4px 0 0 18px;
+                    padding: 7px 0 0 18px;
                 }
                 input {
                     width: 465px;
-                    height: 57px;
+                    height: 55px;
                     color: #FFFFFF;
                     background-color: #58595B;
                     border: none;
                     margin-bottom: 22px;
                     font-size: 32px;
                     font-family: "Built Titling";
-                    padding: 1px 0 0 18px;
+                    padding: 2px 0 0 18px;
                     letter-spacing: 3.8px;
                 }
+
+                :-ms-input-placeholder { 
+                    color: #ffffff;    
+                }	  
+                ::-ms-input-placeholder { 
+                    color: #ffffff;   
+                }
+
+                ::placeholder { 
+                    color: #ffffff;    
+                }    
             }
 
             textarea {
                 font-family: "Built Titling";
                 height: 160px;
                 font-size: 32px;
-                padding: 6.8px 0 0 18.8px;
+                padding: 11.8px 0 0 18.8px;
                 letter-spacing: 3.2px;
                 color: #FFFFFF;
                 border: none;

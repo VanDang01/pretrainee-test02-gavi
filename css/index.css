@@ -24,7 +24,7 @@ header .header-menu .pricing {
 }
 header .header-menu .header-menu-item {
   width: 366px;
-  height: 132px;
+  height: 130px;
 }
 header .header-menu .header-menu-item .item-were {
   padding-left: 8px;
@@ -147,14 +147,14 @@ header .img-logo {
   letter-spacing: 5.4px;
   line-height: 64.66px;
   padding-left: 2px;
-  margin-top: -1px;
+  margin-top: 1px;
 }
 .section1 .section1-conten .section1-describe {
   width: 311px;
   height: 140px;
   position: absolute;
   line-height: 28px;
-  padding: 27px 32px 30.4px 46px;
+  padding: 30px 32px 30.4px 46px;
   left: 185px;
   top: 176px;
   color: #ffffff;
@@ -164,7 +164,7 @@ header .img-logo {
 .section1 .section1-conten .section1-bottom {
   position: absolute;
   display: flex;
-  bottom: -5.6%;
+  bottom: -5.9%;
   width: 100%;
   justify-content: space-between;
   left: -17.4%;
@@ -185,7 +185,7 @@ header .img-logo {
 }
 .section1 .section1-img {
   position: relative;
-  top: 22px;
+  top: 25px;
   right: 1.3%;
 }
 .section1 .section1-conten::after {
@@ -256,7 +256,7 @@ header .img-logo {
   font-size: 16px;
   font-family: "Roboto Condensed", sans-serif;
   width: 445px;
-  padding-top: 40.3px;
+  padding-top: 42.3px;
   line-height: 28px;
   color: #ffffff;
   margin-left: -3px;
@@ -290,7 +290,7 @@ header .img-logo {
 .section2 .section2-list {
   display: flex;
   position: relative;
-  top: 2px;
+  top: 4px;
   gap: 30px;
   left: 40px;
 }
@@ -343,7 +343,7 @@ header .img-logo {
   background: #7853A2;
 }
 .section2 .section2-list .list-item-tow .list-item-img img {
-  padding: 97px 0 0 21px;
+  padding: 71px 0 0 41px;
 }
 .section2 .section2-list .list-item-tow .list-item-conten p {
   padding: 82px 0 0 30px;
@@ -460,7 +460,7 @@ header .img-logo {
   font-family: "Roboto Condensed", sans-serif;
   width: 447px;
   line-height: 28px;
-  margin: 16px 0 0 -1px;
+  margin: 17px 0 0 -1px;
 }
 .section3 .section3-container .section3-img img {
   width: 762px;
@@ -517,6 +517,9 @@ header .img-logo {
   top: 480px;
   padding: 0 156px 0 89px;
 }
+.section4 .section4-img .section4-img-click img {
+  cursor: pointer;
+}
 .section4 .section4-conten {
   display: flex;
   background: #9277B5;
@@ -568,7 +571,7 @@ header .img-logo {
 }
 .section4 .section4-conten .section4-conten-link .calendar span {
   font-size: 32px;
-  letter-spacing: 3px;
+  letter-spacing: 3.2px;
   padding-top: 26px;
 }
 .section4 .section4-conten .section4-conten-link .mappin {
@@ -659,6 +662,7 @@ header .img-logo {
 }
 .section5 .section5-conten ul i {
   color: #EA572A;
+  cursor: pointer;
 }
 .section5 .section5-conten ul .one {
   display: flex;
@@ -817,7 +821,12 @@ header .img-logo {
   /* margin-right: 1px; */
   letter-spacing: 3.2px;
   border: none;
-  color: black;
+}
+.section6 .section6-conten form ::-moz-placeholder {
+  color: #414042;
+}
+.section6 .section6-conten form ::placeholder {
+  color: #414042;
 }
 .section6 .section6-conten form button {
   cursor: pointer;
@@ -916,7 +925,7 @@ header .img-logo {
   margin-top: -4px;
 }
 .section7 .section7-container .section7-container-conten img {
-  margin-top: 25px;
+  margin-top: 22px;
 }
 .section7 .section7-container .section7-container-title {
   display: flex;
@@ -1054,7 +1063,7 @@ header .img-logo {
   font-family: "Roboto Condensed", sans-serif;
 }
 .section8 .section8-container .section8-conten .section8-conten-item a i {
-  padding: 42px 0 0 23px;
+  padding: 40px 0 0 23px;
 }
 .section8 .section8-container .section8-conten .section8-conten-item ul {
   display: flex;
@@ -1063,6 +1072,7 @@ header .img-logo {
 }
 .section8 .section8-container .section8-conten .section8-conten-item ul li {
   margin-right: 20px;
+  cursor: pointer;
 }
 .section8 .section8-container .section8-conten .section8-conten-item div {
   font-size: 32px;
@@ -1091,25 +1101,31 @@ header .img-logo {
   margin-top: -2px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input .my-name {
-  padding: 4px 0 0 18px;
+  padding: 7px 0 0 18px;
 }
 .section8 .section8-container .section8-conten .section8-conten-input input {
   width: 465px;
-  height: 57px;
+  height: 55px;
   color: #FFFFFF;
   background-color: #58595B;
   border: none;
   margin-bottom: 22px;
   font-size: 32px;
   font-family: "Built Titling";
-  padding: 1px 0 0 18px;
+  padding: 2px 0 0 18px;
   letter-spacing: 3.8px;
+}
+.section8 .section8-container .section8-conten .section8-conten-input ::-moz-placeholder {
+  color: #ffffff;
+}
+.section8 .section8-container .section8-conten .section8-conten-input ::placeholder {
+  color: #ffffff;
 }
 .section8 .section8-container .section8-conten textarea {
   font-family: "Built Titling";
   height: 160px;
   font-size: 32px;
-  padding: 6.8px 0 0 18.8px;
+  padding: 11.8px 0 0 18.8px;
   letter-spacing: 3.2px;
   color: #FFFFFF;
   border: none;
@@ -1208,6 +1224,7 @@ footer .footer-title .title-item .title-item-link {
   letter-spacing: 2.8px;
   line-height: 38px;
   color: #ffffff;
+  cursor: pointer;
 }
 footer .footer-title .title-item .link-one {
   width: 117px;

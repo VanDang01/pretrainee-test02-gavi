@@ -37,7 +37,16 @@
                 /* margin-right: 1px; */
                 letter-spacing: 3.2px;
                 border: none;
-                color: black;
+            }
+            :-ms-input-placeholder { 
+                color: #414042;    
+            }	  
+            ::-ms-input-placeholder { 
+                color: #414042;   
+            }
+
+            ::placeholder { 
+                color: #414042;     
             }
 
             button {

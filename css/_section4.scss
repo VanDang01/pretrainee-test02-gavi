@@ -17,6 +17,10 @@
             margin: 0 auto;
             top: 480px;
             padding: 0 156px 0 89px;
+
+            img {
+                cursor: pointer;
+            }
         }
 
     }
@@ -78,7 +82,7 @@
 
                 span {
                     font-size: 32px;
-                    letter-spacing: 3px;
+                    letter-spacing: 3.2px;
                     padding-top: 26px;
                 }
             }
