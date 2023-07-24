@@ -192,7 +192,7 @@ header .img-logo {
   content: "";
   position: absolute;
   z-index: 1;
-  top: -13px;
+  top: -3px;
   left: -4%;
   height: 1061px;
   width: 2px;
